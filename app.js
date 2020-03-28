@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 var app = express();
 
-mongoose.connect("mongodb+srv://kr3s0:puntizela44@kr3s0-pnznw.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://kr3s0:<password>@kr3s0-pnznw.mongodb.net/test?retryWrites=true&w=majority");
 
 const DriverModel = mongoose.model("driver",{
 	firstname: String,
